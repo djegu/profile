@@ -5,6 +5,7 @@ body {
   background: -webkit-linear-gradient(to top, #e9e4f0, #F6F9FA); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #e9e4f0, #F6F9FA);
   font-family: 'Kodchasan', sans-serif;
+  /*background-image: url("https://images.unsplash.com/photo-1540270776932-e72e7c2d11cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6d2b18233f1b2364c23c23305b421a8c&auto=format&fit=crop&w=3302&q=80");*/
 
 }
 
@@ -55,15 +56,24 @@ ul {
 }
 
 ul > li {
-  display: inline-block;
+  display: block;
   margin: 10px;
   font-size: 25px;
 }
 
 .profilepic {
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  left: 80px;
+  top: 250px;
+}
+.left{
+  position: fixed;
+  left: 42px;
+  top: 380px;
+  text-align: center;
 }
 
 .affiche{
